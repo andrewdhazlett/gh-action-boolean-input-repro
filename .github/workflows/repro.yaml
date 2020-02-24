@@ -17,6 +17,7 @@ jobs:
       - run: npm install
       # Repro w/ default value
       - uses: ./
+        continue-on-error: true
       # Repro w/ explicit value
       - uses: ./
         with:
