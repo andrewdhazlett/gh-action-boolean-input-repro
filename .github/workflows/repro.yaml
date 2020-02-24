@@ -20,5 +20,11 @@ jobs:
         continue-on-error: true
       # Repro w/ explicit value
       - uses: ./
+        continue-on-error: true
         with:
           boolean-param: false
+      # Repro w/ tagged value
+      - uses: ./
+        continue-on-error: true
+        with:
+          boolean-param: !!bool false
