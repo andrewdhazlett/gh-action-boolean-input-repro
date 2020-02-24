@@ -1,0 +1,23 @@
+name: gh-action-boolean-input-repro
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  testing:
+    name: Bug repro
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - run: npm install
+      # Repro w/ default value
+      - uses: ./
+      # Repro w/ explicit value
+      - uses: ./
+        with:
+          boolean-param: false

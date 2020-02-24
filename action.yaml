@@ -1,0 +1,14 @@
+name: "Boolean Bug Repro"
+description: "Boolean Bug Repro"
+author: "Andrew Hazlett"
+branding:
+  icon: "check-square"
+  color: "green"
+inputs:
+  boolean-param:
+    description: "Whether to throw an error"
+    required: false
+    default: false
+runs:
+  using: "node12"
+  main: "./index.js"

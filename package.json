@@ -1,0 +1,23 @@
+{
+  "name": "gh-action-boolean-input-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewdhazlett/gh-action-boolean-input-repro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewdhazlett/gh-action-boolean-input-repro/issues"
+  },
+  "homepage": "https://github.com/andrewdhazlett/gh-action-boolean-input-repro#readme",
+  "devDependencies": {
+    "@actions/core": "^1.2.2"
+  }
+}
