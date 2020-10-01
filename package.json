@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/andrewdhazlett/gh-action-boolean-input-repro#readme",
   "devDependencies": {
-    "@actions/core": "^1.2.2"
+    "@actions/core": "^1.2.6"
   }
 }
